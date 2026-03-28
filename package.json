@@ -20,6 +20,11 @@
     "react-dom": "^19.0.0",
     "react-hot-toast": "^2.4.1"
   },
+  "overrides": {
+    "@teachablemachine/image": {
+      "@tensorflow/tfjs": "$@tensorflow/tfjs"
+    }
+  },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^19",
